@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Foodieland | Health Japanese Fried Rice</title>
+        <link rel="stylesheet" href="./assets/css/style.css?v=20261021-2" />
+        <link rel="stylesheet" href="./assets/css/pages.css?v=20261021-2" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header__inner">
+                <a class="logo" href="./index.html">Foodieland<span>.</span></a>
+                <nav class="links" aria-label="Main navigation">
+                    <a href="./index.html">Home</a>
+                    <a href="./details.html">Recipes</a>
+                    <a href="./blog.html">Blog</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="./about.html">About us</a>
+                </nav>
+                <div class="icons">
+                    <a href="https://www.facebook.com/" aria-label="Facebook">
+                        <img
+                            src="./assets/img/figma/206-001Facebook.svg"
+                            alt=""
+                        />
+                    </a>
+                    <a href="https://twitter.com/" aria-label="Twitter">
+                        <img
+                            src="./assets/img/figma/206-003Twitter.svg"
+                            alt=""
+                        />
+                    </a>
+                    <a
+                        href="https://www.instagram.com/foodieland/"
+                        aria-label="Instagram"
+                    >
+                        <img
+                            src="./assets/img/figma/206-004Instagram.svg"
+                            alt=""
+                        />
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="recipe-page">
+            <section
+                class="recipe-heading container"
+                aria-labelledby="recipe-title"
+            >
+                <h1 id="recipe-title">Health Japanese Fried Rice</h1>
+                <div class="recipe-heading__meta">
+                    <div class="author">
+                        <img
+                            src="./assets/img/figma/227-Ellipse2.png"
+                            alt="John Smith"
+                            class="author__avatar"
+                        />
+                        <div>
+                            <p class="author__name">John Smith</p>
+                            <p class="author__date">15 March 2022</p>
+                        </div>
+                    </div>
+                    <img
+                        src="./assets/img/figma/recipe-Vector3.svg"
+                        alt=""
+                        class="recipe-heading__divider"
+                    />
+                    <div class="cooking-time">
+                        <img
+                            src="./assets/img/figma/article-Timer.svg"
+                            alt=""
+                        />
+                        <div>
+                            <b>Prep time</b>
+                            <span>15 Minutes</span>
+                        </div>
+                    </div>
+                    <img
+                        src="./assets/img/figma/recipe-Vector3.svg"
+                        alt=""
+                        class="recipe-heading__divider"
+                    />
+                    <div class="cooking-time">
+                        <img
+                            src="./assets/img/figma/article-Timer.svg"
+                            alt=""
+                        />
+                        <div>
+                            <b>Cook time</b>
+                            <span>15 Minutes</span>
+                        </div>
+                    </div>
+                    <img
+                        src="./assets/img/figma/recipe-Vector3.svg"
+                        alt=""
+                        class="recipe-heading__divider"
+                    />
+                    <div class="recipe-heading__category">
+                        <img
+                            src="./assets/img/figma/article-ForkKnife.svg"
+                            alt=""
+                        />
+                        Chicken
+                    </div>
+                </div>
+                <div class="recipe-actions">
+                    <button type="button" data-print>
+                        <img
+                            src="./assets/img/figma/recipe-Group901.svg"
+                            alt=""
+                        />
+                        <span>Print</span>
+                    </button>
+                    <button type="button" data-share>
+                        <img
+                            src="./assets/img/figma/recipe-Group900.svg"
+                            alt=""
+                        />
+                        <span>Share</span>
+                    </button>
+                    <p class="recipe-actions__status" role="status"></p>
+                </div>
+                <div class="recipe-overview">
+                    <div class="recipe-video">
+                        <img
+                            src="./assets/img/figma/328-Image31.png"
+                            alt="Japanese fried rice with asparagus and eggs"
+                            class="recipe-video__photo"
+                        />
+                        <a
+                            href="#directions"
+                            class="recipe-video__play"
+                            aria-label="View cooking directions"
+                        >
+                            <img
+                                src="./assets/img/figma/recipe-Group884.svg"
+                                alt=""
+                            />
+                        </a>
+                    </div>
+                    <aside class="nutrition">
+                        <h2>Nutrition Information</h2>
+                        <dl>
+                            <div class="nutrition__row">
+                                <dt>Calories</dt>
+                                <dd>219.9 kcal</dd>
+                                <img
+                                    src="./assets/img/figma/recipe-Vector14.svg"
+                                    alt=""
+                                    class="nutrition__line"
+                                />
+                            </div>
+                            <div class="nutrition__row">
+                                <dt>Total Fat</dt>
+                                <dd>10.7 g</dd>
+                                <img
+                                    src="./assets/img/figma/recipe-Vector14.svg"
+                                    alt=""
+                                    class="nutrition__line"
+                                />
+                            </div>
+                            <div class="nutrition__row">
+                                <dt>Protein</dt>
+                                <dd>7.9 g</dd>
+                                <img
+                                    src="./assets/img/figma/recipe-Vector14.svg"
+                                    alt=""
+                                    class="nutrition__line"
+                                />
+                            </div>
+                            <div class="nutrition__row">
+                                <dt>Carbohydrate</dt>
+                                <dd>22.3 g</dd>
+                                <img
+                                    src="./assets/img/figma/recipe-Vector14.svg"
+                                    alt=""
+                                    class="nutrition__line"
+                                />
+                            </div>
+                            <div class="nutrition__row">
+                                <dt>Cholesterol</dt>
+                                <dd>37.4 mg</dd>
+                                <img
+                                    src="./assets/img/figma/recipe-Vector14.svg"
+                                    alt=""
+                                    class="nutrition__line"
+                                />
+                            </div>
+                        </dl>
+                        <p>
+                            adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </aside>
+                </div>
+                <p class="recipe-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </p>
+            </section>
+            <div class="recipe-layout container">
+                <div class="recipe-instructions">
+                    <section
+                        class="ingredients"
+                        aria-labelledby="ingredients-title"
+                    >
+                        <h2 id="ingredients-title">Ingredients</h2>
+                        <h3>For main dish</h3>
+                        <div class="ingredient-list">
+                            <label class="ingredient">
+                                <input type="checkbox" checked />
+                                <span
+                                    class="ingredient__check"
+                                    aria-hidden="true"
+                                ></span>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </label>
+                            <label class="ingredient">
+                                <input type="checkbox" />
+                                <span
+                                    class="ingredient__check"
+                                    aria-hidden="true"
+                                ></span>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </label>
+                            <label class="ingredient">
+                                <input type="checkbox" />
+                                <span
+                                    class="ingredient__check"
+                                    aria-hidden="true"
+                                ></span>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </label>
+                            <label class="ingredient">
+                                <input type="checkbox" />
+                                <span
+                                    class="ingredient__check"
+                                    aria-hidden="true"
+                                ></span>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </label>
+                            <label class="ingredient">
+                                <input type="checkbox" />
+                                <span
+                                    class="ingredient__check"
+                                    aria-hidden="true"
+                                ></span>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </label>
+                        </div>
+                        <h3 class="ingredients__sauce">For the sauce</h3>
+                        <div class="ingredient-list">
+                            <label class="ingredient">
+                                <input type="checkbox" />
+                                <span
+                                    class="ingredient__check"
+                                    aria-hidden="true"
+                                ></span>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </label>
+                            <label class="ingredient">
+                                <input type="checkbox" />
+                                <span
+                                    class="ingredient__check"
+                                    aria-hidden="true"
+                                ></span>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </label>
+                            <label class="ingredient">
+                                <input type="checkbox" />
+                                <span
+                                    class="ingredient__check"
+                                    aria-hidden="true"
+                                ></span>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </label>
+                        </div>
+                    </section>
+                    <section
+                        class="directions"
+                        id="directions"
+                        aria-labelledby="directions-title"
+                    >
+                        <h2 id="directions-title">Directions</h2>
+                        <section class="cooking-step">
+                            <h3>
+                                <label class="cooking-step__heading">
+                                    <input type="checkbox" />
+                                    <span
+                                        class="ingredient__check"
+                                        aria-hidden="true"
+                                    ></span>
+                                    <span>1. Lorem ipsum dolor sit amet</span>
+                                </label>
+                            </h3>
+                            <div class="cooking-step__content">
+                                <p>
+                                    Nemo enim ipsam voluptatem quia voluptas sit
+                                    aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione
+                                    voluptatem sequi nesciunt. Neque porro
+                                    quisquam est, qui dolorem ipsum quia dolor
+                                    sit amet, consectetur, adipisci velit, sed
+                                    quia non numquam eius modi tempora incidunt
+                                    ut labore et dolore magnam aliquam quaerat
+                                    voluptatem.
+                                </p>
+                                <img
+                                    src="./assets/img/figma/article-Rectangle23.png"
+                                    alt="Woman preparing a meal in a kitchen"
+                                    class="cooking-step__photo"
+                                />
+                                <p>
+                                    Nemo enim ipsam voluptatem quia voluptas sit
+                                    aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione
+                                    voluptatem sequi nesciunt. Neque porro
+                                    quisquam est, qui dolorem ipsum quia dolor
+                                    sit amet, consectetur, adipisci velit, sed
+                                    quia non numquam eius modi tempora incidunt
+                                    ut labore et dolore magnam aliquam quaerat
+                                    voluptatem.
+                                </p>
+                            </div>
+                            <img
+                                src="./assets/img/figma/recipe-Vector8.svg"
+                                alt=""
+                                class="cooking-step__divider"
+                            />
+                        </section>
+                        <section class="cooking-step">
+                            <h3>
+                                <label class="cooking-step__heading">
+                                    <input type="checkbox" />
+                                    <span
+                                        class="ingredient__check"
+                                        aria-hidden="true"
+                                    ></span>
+                                    <span>2. Lorem ipsum dolor sit amet</span>
+                                </label>
+                            </h3>
+                            <div class="cooking-step__content">
+                                <p>
+                                    Nemo enim ipsam voluptatem quia voluptas sit
+                                    aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione
+                                    voluptatem sequi nesciunt. Neque porro
+                                    quisquam est, qui dolorem ipsum quia dolor
+                                    sit amet, consectetur, adipisci velit, sed
+                                    quia non numquam eius modi tempora incidunt
+                                    ut labore et dolore magnam aliquam quaerat
+                                    voluptatem.
+                                </p>
+                            </div>
+                            <img
+                                src="./assets/img/figma/recipe-Vector8.svg"
+                                alt=""
+                                class="cooking-step__divider"
+                            />
+                        </section>
+                        <section class="cooking-step">
+                            <h3>
+                                <label class="cooking-step__heading">
+                                    <input type="checkbox" />
+                                    <span
+                                        class="ingredient__check"
+                                        aria-hidden="true"
+                                    ></span>
+                                    <span>3. Lorem ipsum dolor sit amet</span>
+                                </label>
+                            </h3>
+                            <div class="cooking-step__content">
+                                <p>
+                                    Nemo enim ipsam voluptatem quia voluptas sit
+                                    aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione
+                                    voluptatem sequi nesciunt. Neque porro
+                                    quisquam est, qui dolorem ipsum quia dolor
+                                    sit amet, consectetur, adipisci velit, sed
+                                    quia non numquam eius modi tempora incidunt
+                                    ut labore et dolore magnam aliquam quaerat
+                                    voluptatem.
+                                </p>
+                            </div>
+                            <img
+                                src="./assets/img/figma/recipe-Vector8.svg"
+                                alt=""
+                                class="cooking-step__divider"
+                            />
+                        </section>
+                    </section>
+                </div>
+                <aside class="recipe-sidebar">
+                    <h2>Other Recipe</h2>
+                    <div class="recipe-sidebar__list">
+                        <article class="sidebar-recipe">
+                            <a
+                                class="sidebar-recipe__photo"
+                                href="./details.html"
+                            >
+                                <img
+                                    src="./assets/img/figma/768-Image32.png"
+                                    alt="Chicken Meatball with Creamy Chees..."
+                                />
+                            </a>
+                            <div>
+                                <h3>
+                                    <a href="./details.html">
+                                        Chicken Meatball
+                                        <br />
+                                        with Creamy Chees...
+                                    </a>
+                                </h3>
+                                <p>By Andreas Paula</p>
+                            </div>
+                        </article>
+                        <article class="sidebar-recipe">
+                            <a
+                                class="sidebar-recipe__photo"
+                                href="./details.html"
+                            >
+                                <img
+                                    src="./assets/img/figma/768-Image34.png"
+                                    alt="The Creamiest Creamy Chicken an..."
+                                />
+                            </a>
+                            <div>
+                                <h3>
+                                    <a href="./details.html">
+                                        The Creamiest
+                                        <br />
+                                        Creamy Chicken an...
+                                    </a>
+                                </h3>
+                                <p>By Andreas Paula</p>
+                            </div>
+                        </article>
+                        <article class="sidebar-recipe">
+                            <a
+                                class="sidebar-recipe__photo"
+                                href="./details.html"
+                            >
+                                <img
+                                    src="./assets/img/figma/768-Image31.png"
+                                    alt="The Best Easy One Pot Chicken and Rice"
+                                />
+                            </a>
+                            <div>
+                                <h3>
+                                    <a href="./details.html">
+                                        The Best Easy One
+                                        <br />
+                                        Pot Chicken and Rice
+                                    </a>
+                                </h3>
+                                <p>By Andreas Paula</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="healthy-ad">
+                        <img
+                            src="./assets/img/figma/recipe-MaskGroup.svg"
+                            alt=""
+                            class="healthy-ad__background"
+                        />
+                        <p class="healthy-ad__title">
+                            Don’t forget to eat
+                            <br />
+                            healthy food
+                        </p>
+                        <div class="healthy-ad__photo">
+                            <img
+                                src="./assets/img/figma/768-01.png"
+                                alt="Fresh healthy salad"
+                            />
+                        </div>
+                        <p class="healthy-ad__url">www.foodieland.com</p>
+                    </div>
+                </aside>
+            </div>
+            <section
+                class="subscribe container"
+                aria-labelledby="subscribe-title"
+                style="
+                    --subscribe-mask: url(&quot;../img/figma/728-Rectangle15.svg&quot;);
+                "
+            >
+                <img
+                    src="./assets/img/figma/728-KisspngSaladSaladFreshFoodHealthylifeVegetablesVegetarian5D42E3A7Cb85431.png"
+                    alt=""
+                    class="subscribe__vegetables"
+                />
+                <img
+                    src="./assets/img/figma/728-RucolaPng.png"
+                    alt=""
+                    class="subscribe__rucola"
+                />
+                <img
+                    src="./assets/img/figma/728-PhotoPlate.png"
+                    alt=""
+                    class="subscribe__plate"
+                />
+                <div class="subscribe__content">
+                    <h2 id="subscribe-title">Deliciousness to your inbox</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqut enim ad minim
+                    </p>
+                    <form class="subscribe__form">
+                        <label class="visually-hidden" for="email">
+                            Your email address
+                        </label>
+                        <input
+                            id="email"
+                            type="email"
+                            name="email"
+                            placeholder="Your email address..."
+                            required
+                        />
+                        <button class="btn" type="submit">Subscribe</button>
+                    </form>
+                    <p class="subscribe__status" role="status"></p>
+                </div>
+            </section>
+            <section
+                class="recommendations container"
+                aria-labelledby="recommendations-title"
+            >
+                <h2 id="recommendations-title">
+                    You may like these recipe too
+                </h2>
+                <div class="more-recipes__grid">
+                    <article class="recipe recipe--small">
+                        <div
+                            class="recipe__photo recipe__photo--fruit"
+                            style="
+                                --photo-mask: url(&quot;../img/figma/328-Image26.svg&quot;);
+                            "
+                        >
+                            <a href="./details.html">
+                                <img
+                                    src="./assets/img/figma/328-Image27.png"
+                                    alt="Mixed Tropical Fruit Salad with Superfood Boosts"
+                                    class="recipe__image"
+                                />
+                            </a>
+                            <button
+                                class="favorite"
+                                type="button"
+                                aria-label="Save Mixed Tropical Fruit Salad with Superfood Boosts"
+                                aria-pressed="true"
+                                data-liked="./assets/img/figma/recipe-Group852.svg"
+                                data-unliked="./assets/img/figma/328-Group853.svg"
+                            >
+                                <img
+                                    src="./assets/img/figma/recipe-Group852.svg"
+                                    alt=""
+                                />
+                            </button>
+                        </div>
+                        <h3>
+                            <a href="./details.html">
+                                Mixed Tropical Fruit Salad with Superfood Boosts
+                            </a>
+                        </h3>
+                        <div class="recipe__meta">
+                            <span>
+                                <img
+                                    src="./assets/img/figma/article-Timer.svg"
+                                    alt=""
+                                />
+                                30 Minutes
+                            </span>
+                            <span>
+                                <img
+                                    src="./assets/img/figma/article-ForkKnife.svg"
+                                    alt=""
+                                />
+                                Healthy
+                            </span>
+                        </div>
+                    </article>
+                    <article class="recipe recipe--small">
+                        <div
+                            class="recipe__photo"
+                            style="
+                                --photo-mask: url(&quot;../img/figma/328-Image26.svg&quot;);
+                            "
+                        >
+                            <a href="./details.html">
+                                <img
+                                    src="./assets/img/figma/328-Image29.png"
+                                    alt="Big and Juicy Wagyu Beef Cheeseburger"
+                                    class="recipe__image"
+                                />
+                            </a>
+                            <button
+                                class="favorite"
+                                type="button"
+                                aria-label="Save Big and Juicy Wagyu Beef Cheeseburger"
+                                aria-pressed="false"
+                                data-liked="./assets/img/figma/recipe-Group852.svg"
+                                data-unliked="./assets/img/figma/328-Group853.svg"
+                            >
+                                <img
+                                    src="./assets/img/figma/328-Group853.svg"
+                                    alt=""
+                                />
+                            </button>
+                        </div>
+                        <h3>
+                            <a href="./details.html">
+                                Big and Juicy Wagyu Beef Cheeseburger
+                            </a>
+                        </h3>
+                        <div class="recipe__meta">
+                            <span>
+                                <img
+                                    src="./assets/img/figma/article-Timer.svg"
+                                    alt=""
+                                />
+                                30 Minutes
+                            </span>
+                            <span>
+                                <img
+                                    src="./assets/img/figma/article-ForkKnife.svg"
+                                    alt=""
+                                />
+                                Western
+                            </span>
+                        </div>
+                    </article>
+                    <article class="recipe recipe--small">
+                        <div
+                            class="recipe__photo"
+                            style="
+                                --photo-mask: url(&quot;../img/figma/328-Image26.svg&quot;);
+                            "
+                        >
+                            <a href="./details.html">
+                                <img
+                                    src="./assets/img/figma/328-Image31.png"
+                                    alt="Healthy Japanese Fried Rice with Asparagus"
+                                    class="recipe__image"
+                                />
+                            </a>
+                            <button
+                                class="favorite"
+                                type="button"
+                                aria-label="Save Healthy Japanese Fried Rice with Asparagus"
+                                aria-pressed="true"
+                                data-liked="./assets/img/figma/recipe-Group852.svg"
+                                data-unliked="./assets/img/figma/328-Group853.svg"
+                            >
+                                <img
+                                    src="./assets/img/figma/recipe-Group852.svg"
+                                    alt=""
+                                />
+                            </button>
+                        </div>
+                        <h3>
+                            <a href="./details.html">
+                                Healthy Japanese Fried Rice with Asparagus
+                            </a>
+                        </h3>
+                        <div class="recipe__meta">
+                            <span>
+                                <img
+                                    src="./assets/img/figma/article-Timer.svg"
+                                    alt=""
+                                />
+                                30 Minutes
+                            </span>
+                            <span>
+                                <img
+                                    src="./assets/img/figma/article-ForkKnife.svg"
+                                    alt=""
+                                />
+                                Healthy
+                            </span>
+                        </div>
+                    </article>
+                    <article class="recipe recipe--small">
+                        <div
+                            class="recipe__photo"
+                            style="
+                                --photo-mask: url(&quot;../img/figma/328-Image26.svg&quot;);
+                            "
+                        >
+                            <a href="./details.html">
+                                <img
+                                    src="./assets/img/figma/328-Image33.png"
+                                    alt="Cauliflower Walnut Vegetarian Taco Meat"
+                                    class="recipe__image"
+                                />
+                            </a>
+                            <button
+                                class="favorite"
+                                type="button"
+                                aria-label="Save Cauliflower Walnut Vegetarian Taco Meat"
+                                aria-pressed="false"
+                                data-liked="./assets/img/figma/recipe-Group852.svg"
+                                data-unliked="./assets/img/figma/328-Group853.svg"
+                            >
+                                <img
+                                    src="./assets/img/figma/328-Group853.svg"
+                                    alt=""
+                                />
+                            </button>
+                        </div>
+                        <h3>
+                            <a href="./details.html">
+                                Cauliflower Walnut Vegetarian Taco Meat
+                            </a>
+                        </h3>
+                        <div class="recipe__meta">
+                            <span>
+                                <img
+                                    src="./assets/img/figma/article-Timer.svg"
+                                    alt=""
+                                />
+                                30 Minutes
+                            </span>
+                            <span>
+                                <img
+                                    src="./assets/img/figma/article-ForkKnife.svg"
+                                    alt=""
+                                />
+                                Eastern
+                            </span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="footer container">
+            <div class="footer__top">
+                <div>
+                    <a class="logo" href="./index.html"
+                        >Foodieland<span>.</span></a
+                    >
+                    <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+                </div>
+                <nav class="links" aria-label="Footer navigation">
+                    <a href="./details.html">Recipes</a>
+                    <a href="./blog.html">Blog</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="./about.html">About us</a>
+                </nav>
+            </div>
+            <div class="footer__divider">
+                <img src="./assets/img/figma/744-Vector1.svg" alt="" />
+            </div>
+            <div class="footer__bottom">
+                <p>
+                    © 2026 Flowbase. Powered by
+                    <a href="https://webflow.com/">Webflow</a>
+                </p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/" aria-label="Facebook">
+                        <img
+                            src="./assets/img/figma/206-001Facebook.svg"
+                            alt=""
+                        />
+                    </a>
+                    <a href="https://twitter.com/" aria-label="Twitter">
+                        <img
+                            src="./assets/img/figma/206-003Twitter.svg"
+                            alt=""
+                        />
+                    </a>
+                    <a
+                        href="https://www.instagram.com/foodieland/"
+                        aria-label="Instagram"
+                    >
+                        <img
+                            src="./assets/img/figma/206-004Instagram.svg"
+                            alt=""
+                        />
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="./assets/js/main.js?v=20261021-2"></script>
+    </body>
+</html>
+
